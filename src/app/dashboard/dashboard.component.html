@@ -1,0 +1,66 @@
+<!-- ============================================================== -->
+<!-- row -->
+<!-- ============================================================== -->
+<div class="row">
+  <!-- Card column -->
+  <div class="col-12">
+    <mat-card>
+      <mat-card-content>
+        <h4 class="mb-32">Taxa de aprovação</h4>
+        <mat-tab-group mat-stretch-tabs="false">
+          <mat-tab label="Ensino Médio">
+            <mat-card-content>
+              <mat-tab-group mat-stretch-tabs="false">
+                <mat-tab label="Sul">
+                  <img class="img-fluid" src="./assets/images/graphs/EM-sul.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Sudeste">
+                  <img class="img-fluid" src="./assets/images/graphs/EM-sudeste.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Centro-Oeste">
+
+                  <img class="img-fluid" src="./assets/images/graphs/EM-centro-oeste.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Nordeste">
+
+                  <img class="img-fluid" src="./assets/images/graphs/EM-nordeste.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Norte">
+
+                  <img class="img-fluid" src="./assets/images/graphs/EM-norte.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+              </mat-tab-group>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="6-9 Série">
+            <mat-card-content>
+              <mat-tab-group mat-stretch-tabs="false">
+                <mat-tab label="Sul">
+                  <img class="img-fluid" src="./assets/images/graphs/6-9-sul.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Sudeste">
+                  <img class="img-fluid" src="./assets/images/graphs/6-9-sudeste.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Centro-Oeste">
+
+                  <img class="img-fluid" src="./assets/images/graphs/6-9-centro-oeste.jfif" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Nordeste">
+
+                  <img class="img-fluid" src="./assets/images/graphs/6-9-nordeste.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Norte">
+
+                  <img class="img-fluid" src="./assets/images/graphs/6-9-norte.jpeg" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+              </mat-tab-group>
+            </mat-card-content>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div class="overlay hide" (click)="hideOverlay()">
+  <img src="" alt="Enlarged image">
+</div>
