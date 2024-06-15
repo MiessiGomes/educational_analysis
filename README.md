@@ -1,6 +1,7 @@
 # Análises Educacionais em Python
 
 Este projeto realiza análise de dados educacionais usando Python. O foco principal é a taxa de aprovação para o Ensino Fundamental I e II e Ensino Médio no Brasil.
+Para a visualização completa das análise, foi feito um Dashboard usando Angular.
 
 ## Descrição
 
@@ -16,5 +17,5 @@ link da base: https://basedosdados.org/dataset/96eab476-5d30-459b-82be-f888d4d0d
 ## Como usar
 
 1. Clone o repositório.
-2. Instale as dependências do Angular e Node.
+2. Instale as dependências do Angular juntamente com sua CLI e o Node.
 3. Execute o script principal.
