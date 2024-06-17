@@ -1,0 +1,28 @@
+<!-- ============================================================== -->
+<!-- row -->
+<!-- ============================================================== -->
+<div class="row">
+  <!-- Card column -->
+  <div class="col-12">
+    <mat-card>
+      <mat-card-content>
+        <h4 class="mb-32">Rendimento Escolar</h4>
+        <mat-tab-group mat-stretch-tabs="false">
+          <mat-tab label="Tendência de Aprovação">
+            <mat-card-content>
+              <img class="img-fluid" src="./assets/images/rendimento/tendencia_aprovacao.png" alt="" (click)="showOverlay($event)">
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Tendência de Rendimento Escolar">
+            <mat-card-content>
+              <img class="img-fluid" src="./assets/images/rendimento/tendencia_rendescolar.png" alt="" (click)="showOverlay($event)">
+            </mat-card-content>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div class="overlay hide" (click)="hideOverlay()">
+  <img src="" alt="Enlarged image">
+</div>

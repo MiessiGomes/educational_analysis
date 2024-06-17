@@ -34,6 +34,16 @@ export class FullComponent {
       icon: "home",
       menu: "Taxa de Aprovação",
     },
+    {
+      link: "/progressao-notas",
+      icon: "home",
+      menu: "Progressão de Notas",
+    },
+    {
+      link: "/rendimento",
+      icon: "home",
+      menu: "Rendimento Escolar",
+    },
   ]
 
 }

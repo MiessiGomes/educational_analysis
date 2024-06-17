@@ -1,0 +1,42 @@
+<!-- ============================================================== -->
+<!-- row -->
+<!-- ============================================================== -->
+<div class="row">
+  <!-- Card column -->
+  <div class="col-12">
+    <mat-card>
+      <mat-card-content>
+        <h4 class="mb-32">Taxa de Aprovação</h4>
+        <mat-tab-group mat-stretch-tabs="false">
+          <mat-tab label="Privada">
+            <mat-card-content>
+              <mat-tab-group mat-stretch-tabs="false">
+                <mat-tab label="Português">
+                  <img class="img-fluid" src="./assets/images/taxa-aprovacao/privada/privada-progressao_portugues.png" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Matemática">
+                  <img class="img-fluid" src="./assets/images/taxa-aprovacao/privada/privada-progressao_matematica.png" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+              </mat-tab-group>
+            </mat-card-content>
+          </mat-tab>
+          <mat-tab label="Pública">
+            <mat-card-content>
+              <mat-tab-group mat-stretch-tabs="false">
+                <mat-tab label="Português">
+                  <img class="img-fluid" src="./assets/images/taxa-aprovacao/publica/publica-progressao_portugues.png" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+                <mat-tab label="Matemática">
+                  <img class="img-fluid" src="./assets/images/taxa-aprovacao/publica/publica-progressao_matematica.png" alt="" (click)="showOverlay($event)">
+                </mat-tab>
+              </mat-tab-group>
+            </mat-card-content>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+<div class="overlay hide" (click)="hideOverlay()">
+  <img src="" alt="Enlarged image">
+</div>
